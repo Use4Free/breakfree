@@ -711,7 +711,8 @@
         "❔XX | 🔴 | vless | @VpnSkyy | 6",
         "❔XX | 🔴 | vless | @VpnSkyy | 7",
         "🇰🇭KH | 🔴 | vless | @ROMAX_VPN | 1",
-        "MO-45.64.22.22-0000 | 12.718MB",
+        "ZA-4.253.33.155-0868 | 0.0MB",
+        "MO-45.64.22.22-0000 | 0.0MB",
         "🇭🇰HK-156.253.107.236-0002 | 0.0MB",
         "🇸🇬SG-146.190.202.9-0003 | 0.0MB",
         "🇺🇸US-145.223.124.238-0008 | 0.0MB",
@@ -893,8 +894,7 @@
         "RELAY-162.159.135.42-0235 | 0.0MB",
         "RELAY-141.193.213.20-0236 | 0.0MB",
         "RELAY-172.67.199.34-0237 | 0.0MB",
-        "RELAY-172.67.199.34-0238 | 0.0MB",
-        "RELAY-203.30.188.189-0239 | 0.0MB"
+        "RELAY-172.67.199.34-0238 | 0.0MB"
       ]
     },
     {
@@ -13358,7 +13358,26 @@
     },
     {
       "type": "vmess",
-      "tag": "MO-45.64.22.22-0000 | 12.718MB",
+      "tag": "ZA-4.253.33.155-0868 | 0.0MB",
+      "server": "boogeyman.chomba.tech",
+      "server_port": 443,
+      "uuid": "9b6a87ed-9949-49f6-ab6f-cf9ab15177d7",
+      "security": "auto",
+      "network": "tcp",
+      "tls": {
+        "enabled": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "boogeyman.chomba.tech"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "MO-45.64.22.22-0000 | 0.0MB",
       "server": "45.64.22.22",
       "server_port": 443,
       "uuid": "e55ed7b2-ed4f-480c-8b99-08482da1e4c7",
@@ -15978,25 +15997,6 @@
         "path": "/",
         "headers": {
           "Host": "us-lb.sshkit.org"
-        }
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "RELAY-203.30.188.189-0239 | 0.0MB",
-      "server": "203.30.188.189",
-      "server_port": 443,
-      "uuid": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
-      "security": "auto",
-      "network": "tcp",
-      "tls": {
-        "enabled": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "oplg1.zhujicn2.com"
         }
       }
     }
